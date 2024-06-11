@@ -9,6 +9,7 @@ use App\Http\Services\CreditService;
 class CreditsController extends Controller
 {
     private $creditService;
+    
     public function __construct(){
         $this->creditService = new CreditService();
     }
