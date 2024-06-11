@@ -9,6 +9,7 @@ use App\Http\Services\PaymentService;
 class PaymentController extends Controller
 {
     private $paymentService;
+    
     public function __construct(){
         $this->paymentService = new PaymentService();
     }
