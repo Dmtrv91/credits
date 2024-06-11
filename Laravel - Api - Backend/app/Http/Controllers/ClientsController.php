@@ -8,6 +8,7 @@ use App\Http\Services\ClientService;
 class ClientsController extends Controller
 {
     private $clientsService;
+    
     public function __construct(){
         $this->clientsService = new ClientService();
     }
